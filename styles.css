@@ -195,8 +195,51 @@ button.normal{
 #services .items .item:hover h2 {
     color: #465B52;
 }
+
+/*Wavy svg*/
+.wave-header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+svg{
+    position: relative;
+    /* height: 50%; */
+    /* bottom:0; */
+}
+.herb{
+    background: #E3D2B1;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    /* padding-left: 0px; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.herb h3{
+    padding-top: 0px;
+    font-size: 2.5em;
+    color: #466435;
+    font-weight: 700;
+    align-items: center;
+}
+
+.herb p{
+    color: #412b29;
+    padding-bottom: 100px;
+    line-height: 1.8;
+}
+
 /* product section*/
 .plants{
+    margin-top: 0px;
+    padding-top: 0px;
     border-radius: 0px;
     background: #e0e0e0;
     box-shadow:  22px 22px 44px #b8b8b8,
@@ -205,8 +248,9 @@ button.normal{
 
 .plants img{
     /* padding-right: 0px; */
-    width: 100%;
+/*     width: 100%; */
     margin-top: 0px;
+    padding-top: 0px;
 }
 
 
@@ -274,6 +318,7 @@ button.normal{
     justify-content: space-evenly;
     padding-right: 20px;
     margin-bottom: 0;
+    padding: 40px;
 }
 /*Contact Us*/
 #contact-details{
